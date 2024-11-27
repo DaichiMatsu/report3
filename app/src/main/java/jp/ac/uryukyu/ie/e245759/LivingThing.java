@@ -35,6 +35,12 @@ public class LivingThing {
         this.dead = dead;
     }
 
+    public int getAttack(){
+        return this.attack;
+    }
+
+    
+
     
 
     public void attack(LivingThing opponent){
